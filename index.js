@@ -1,5 +1,6 @@
 "use strict";
-let Test = require("supertest").Test;
+let supertest = require("supertest");
+let Test = supertest.Test;
 
 let oldEnd = Test.prototype.end;
 
@@ -17,3 +18,4 @@ Test.prototype.end = function(){
   };
 }
 
+module.exports = supertest;
