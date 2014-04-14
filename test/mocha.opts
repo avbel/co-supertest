@@ -1,0 +1,5 @@
+ --require should
+ --require co-mocha
+ --reporter spec
+ --recursive
+ --timeout 5s

@@ -1,0 +1,31 @@
+# Ignore npm packaging
+/node_modules
+#Ignore IDEA files
+/.idea
+# Ignore all logfiles and tempfiles.
+*.log
+/tmp
+
+# Numerous always-ignore extensions
+*~
+*.diff
+*.patch
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
