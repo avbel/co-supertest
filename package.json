@@ -1,6 +1,6 @@
 {
   "name": "co-supertest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Integration co with supertest",
   "main": "index.js",
   "scripts": {
