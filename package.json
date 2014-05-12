@@ -1,6 +1,6 @@
 {
   "name": "co-supertest",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Integration co with supertest",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "co",
     "supertest",
     "es6",
-    "generator"
+    "generators"
   ],
   "repository": {
     "type": "git",
@@ -18,13 +18,11 @@
   },
   "author": "avbel",
   "license": "MIT",
-  "dependencies": {
-    "supertest": "~0.11.0"
-  },
   "devDependencies": {
     "should": "~3.3.0",
     "koa": "~0.5.4",
     "mocha": "~1.18.2",
+    "supertest": "~0.11.0",
     "co-mocha": "0.0.2"
   }
 }
