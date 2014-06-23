@@ -1,13 +1,13 @@
 "use strict";
-let supertest = require("supertest");
-let Test = supertest.Test;
+var supertest = require("supertest");
+var Test = supertest.Test;
 
-let oldEnd = Test.prototype.end;
+var oldEnd = Test.prototype.end;
 
 Test.prototype.end = function(){
   if(arguments.length > 0)
     return oldEnd.apply(this, arguments);
-  let self = this;
+  var self = this;
   return function(callback){
     oldEnd.call(self, function(err, res){
       // allow events handlers to run first
