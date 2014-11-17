@@ -18,6 +18,9 @@
   },
   "author": "avbel",
   "license": "MIT",
+  "peerDependencies": {
+    "supertest": "~0"
+  },
   "devDependencies": {
     "should": "~3.3.0",
     "koa": "~0.5.4",
