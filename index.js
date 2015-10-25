@@ -12,6 +12,9 @@ Test.prototype.end = function(){
     oldEnd.call(self, function(err, res){
       // allow events handlers to run first
       process.nextTick(function(){
+        if (err && res.body && Object.keys(res.body).length > 0) {
+          console.log("Response body", res.body);
+        }
         callback(err, res);
       });
     });
