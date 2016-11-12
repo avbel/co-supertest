@@ -19,7 +19,7 @@
   "author": "avbel",
   "license": "MIT",
   "peerDependencies": {
-    "supertest": "^1.0"
+    "supertest": ">= 1.0"
   },
   "devDependencies": {
     "should": "~3.3.0",
